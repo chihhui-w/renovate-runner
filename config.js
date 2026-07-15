@@ -15,6 +15,6 @@ module.exports = {
     { matchManagers: ["github-actions"], groupName: "github-actions" },
   ],
   prHourlyLimit: 0, // 0: no limit
-  platformCommit: true,
+  platformCommit: "enabled",
   minimumReleaseAge: "7 days",
 };
