@@ -9,9 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: renovatebot/github-action@v46.1.18
-        env:
-          LOG_LEVEL: debug
+      - uses: renovatebot/github-action@v46.1.17
+        # env:
+        #   LOG_LEVEL: debug
         with:
           token: ${{ secrets.GH_FINE_GRAINED_PAT }}
           configurationFile: config.js
