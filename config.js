@@ -8,4 +8,8 @@ module.exports = {
     extends: ["config:recommended"],
   },
   enabledManagers: ["github-actions"],
+  packageRules: [
+    { matchManagers: ["github-actions"], groupName: "github-actions" },
+  ],
+  //   prHourlyLimit: 0, // 0: no limit
 };
