@@ -1,0 +1,15 @@
+name: Renovate
+on:
+  schedule:
+    - cron: "23 2 * * *"
+  workflow_dispatch:
+
+jobs:
+  renovate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: renovatebot/github-action@v46
+        with:
+          token: ${{ secrets.GH_FINE_GRAINED_PAT }}
+          configurationFile: config.js
