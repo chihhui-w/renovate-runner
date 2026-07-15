@@ -4,7 +4,8 @@ module.exports = {
   repositories: ["chihhui-w/github-workflow-template"],
   onboarding: true,
   onboardingConfig: {
-    extends: ["github>your-org/renovate-config"],
+    $schema: "https://docs.renovatebot.com/renovate-schema.json",
+    extends: ["config:recommended"],
   },
   enabledManagers: ["github-actions"],
 };
