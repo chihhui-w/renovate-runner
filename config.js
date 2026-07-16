@@ -1,5 +1,6 @@
 module.exports = {
   platform: "github",
+  extends: ["helpers:pinGitHubActionDigests"],
   osvVulnerabilityAlerts: true, // OSV vulnerability alerts
   vulnerabilityAlerts: {
     // 讀 GitHub 原生 Dependabot alerts
