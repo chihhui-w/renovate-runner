@@ -42,4 +42,5 @@ module.exports = {
   prHourlyLimit: 0, // 0: no limit
   platformCommit: "enabled",
   minimumReleaseAge: "7 days",
+  addLabels: ["DevOps"],
 };
