@@ -6,7 +6,6 @@ module.exports = {
     enabled: true, // 預設就是 true，寫出來明示
     labels: ["security"],
   },
-  gitAuthor: "Someone <someone@users.noreply.github.com>",
   //   autodiscover: true,
   repositories: [
     "chihhui-w/github-workflow-template",
